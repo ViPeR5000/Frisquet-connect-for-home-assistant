@@ -1,0 +1,41 @@
+{
+  "title": "Frisquet Connect",
+  "config": {
+    "flow_title": "Configuração do Frisquet Connect",
+    "step": {
+      "user": {
+        "title": "As suas informações de ligação",
+        "description": "Insira o seu e-mail e a palavra-passe da sua aplicação Frisquet Connect",
+        "data": {
+          "email": "E-mail (Identificação)",
+          "password": "Palavra-passe"
+        }
+      },
+      "2": {
+        "data": {
+          "site": "Local"
+        },
+        "title": "Várias instalações encontradas",
+        "description": "Selecione o local"
+      }
+    }
+  },
+  "entity": {
+    "climate": {
+      "frisquet_connect": {
+        "state_attributes": {
+          "preset_mode": {
+            "state": {
+              "comfort": "Conforto",
+              "reduit": "Reduzido",
+              "boost": "Impulso",
+              "hors_gel": "Anti-congelamento",
+              "reduit_permanent": "Reduzido Permanente",
+              "confort_permanent": "Conforto Permanente"
+            }
+          }
+        }
+      }
+    }
+  }
+}
